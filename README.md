@@ -7,6 +7,7 @@ Análise e tratamento de dados utilizando Python, focado na construção de um p
 ## 📊 Objetivo do Projeto
 
 O principal objetivo deste projeto é estruturar um fluxo de dados robusto e eficiente que elimine processos manuais de manipulação de planilhas. O pipeline foi desenhado para:
+
 * **Extração:** Carregamento automatizado de planilhas Excel complexas (`.xlsx`).
 * **Transformação:** Limpeza profunda, eliminação de redundâncias e padronização de tipos de dados via módulos dedicados.
 * **Carga:** Geração e exportação de uma base de dados 100% processada, confiável e pronta para alimentação de dashboards ou ferramentas de Analytics (Power BI, Tableau, etc.).
@@ -17,31 +18,15 @@ O principal objetivo deste projeto é estruturar um fluxo de dados robusto e efi
 
 * **Python:** Linguagem base para a construção do pipeline e lógica dos agentes.
 * **Pandas:** Manipulação, limpeza e análise estruturada de dados de alta performance.
-* **OpenPyXL:** Engine integrada para leitura e escrita otimizada de arquivos Excel.
+* **OpenPyXL:** *Engine* integrada para leitura e escrita otimizada de arquivos Excel.
 * **Git & GitHub:** Controle de versão e documentação das boas práticas de desenvolvimento.
 
 ---
 
-Clone o repositório para o seu ambiente local:
+## 🚀 Instalação e Execução
 
+Clone o repositório para o seu ambiente local e acesse a pasta do projeto:
+
+```bash
 git clone [https://github.com/nataliapastre-dev/dashboard-porsche-ia.git](https://github.com/nataliapastre-dev/dashboard-porsche-ia.git)
 cd dashboard-porsche-ia
-
----
-
-## 🧠 Estrutura do Repositório
-
-O projeto foi modularizado seguindo boas práticas de arquitetura de software para garantir escalabilidade e fácil manutenção:
-
-```text
-dashboard-porsche-ia/
-│
-├── data/
-│   ├── raw/              # Planilhas originais (dados brutos e não tratados)
-│   └── processed/        # Arquivos finais gerados após a execução do pipeline
-│
-├── agents/               # Módulos com regras de negócio e tratamento de dados
-├── utils/                # Funções utilitárias e auxiliares reutilizáveis
-│
-├── main.py               # Arquivo principal que orquestra a execução do pipeline (ETL)
-└── README.md             # Documentação oficial do projeto
