@@ -22,6 +22,13 @@ O principal objetivo deste projeto é estruturar um fluxo de dados robusto e efi
 
 ---
 
+Clone o repositório para o seu ambiente local:
+
+git clone [https://github.com/nataliapastre-dev/dashboard-porsche-ia.git](https://github.com/nataliapastre-dev/dashboard-porsche-ia.git)
+cd dashboard-porsche-ia
+
+---
+
 ## 🧠 Estrutura do Repositório
 
 O projeto foi modularizado seguindo boas práticas de arquitetura de software para garantir escalabilidade e fácil manutenção:
